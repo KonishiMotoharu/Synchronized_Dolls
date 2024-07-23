@@ -1,0 +1,409 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3622780568744030023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7938085697179698707}
+  - component: {fileID: 1216378015243856127}
+  - component: {fileID: -3554048608716715702}
+  - component: {fileID: 2846722733842813161}
+  m_Layer: 0
+  m_Name: Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7938085697179698707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3622780568744030023}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1216378015243856127
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3622780568744030023}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8, y: 8}
+    newSize: {x: 8, y: 8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -4, y: -4}
+      - {x: -1.54, y: -4}
+      - {x: -1.54, y: -2.52}
+      - {x: -1.56, y: -2.5}
+      - {x: -4, y: -2.5}
+    - - {x: 1.5799999, y: -2.52}
+      - {x: 1.5799999, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: -2.5}
+      - {x: 1.5999999, y: -2.5}
+    - - {x: -4, y: 4}
+      - {x: -4, y: 2.4199998}
+      - {x: -1.56, y: 2.4199998}
+      - {x: -1.54, y: 2.44}
+      - {x: -1.54, y: 4}
+    - - {x: 1.5799999, y: 4}
+      - {x: 1.5799999, y: 2.44}
+      - {x: 1.5999999, y: 2.4199998}
+      - {x: 4, y: 2.4199998}
+      - {x: 4, y: 4}
+  m_UseDelaunayMesh: 0
+--- !u!212 &-3554048608716715702
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3622780568744030023}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8445096d8a07faf48879ef0cb0949d9d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &2846722733842813161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3622780568744030023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b712989bd28864e8ab4260e038f297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomData:
+  - colliderPaths:
+    - colliderPoints:
+      - {x: 4, y: 4}
+      - {x: 4, y: -4}
+      - {x: -4, y: -4}
+      - {x: -4, y: 4}
+    roomSprite: {fileID: 21300000, guid: c7da9613bd12890439730976153ee13a, type: 3}
+    rootLayout: 0
+  - colliderPaths:
+    - colliderPoints:
+      - {x: 1.594, y: 4}
+      - {x: 1.594, y: -2.514}
+      - {x: -1.553, y: -2.514}
+      - {x: -1.553, y: 4}
+      - {x: -4, y: 4}
+      - {x: -4, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: 72501232fbc53264daf42b8357b9a52f, type: 3}
+    rootLayout: 1
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: 2.434}
+      - {x: 1.594, y: 2.434}
+      - {x: 1.594, y: -2.513}
+      - {x: -4, y: -2.513}
+      - {x: -4, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: b8333ffb4e1c49549bbba5f722c5ce2c, type: 3}
+    rootLayout: 5
+  - colliderPaths:
+    - colliderPoints:
+      - {x: 1.5799999, y: 4}
+      - {x: 1.58, y: -2.49}
+      - {x: -4, y: -2.49}
+      - {x: -4, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: 4}
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: 2.43}
+      - {x: -1.54, y: 2.43}
+      - {x: -1.54, y: 4}
+    roomSprite: {fileID: 21300000, guid: 670f7fac1eb352b4f948374039a6626c, type: 3}
+    rootLayout: 3
+  - colliderPaths:
+    - colliderPoints:
+      - {x: 4, y: 4}
+      - {x: -4, y: 4}
+      - {x: -4, y: -4}
+      - {x: -1.55, y: -4}
+      - {x: -1.55, y: 2.43}
+      - {x: 1.58, y: 2.43}
+      - {x: 1.58, y: -4}
+      - {x: 4, y: -4}
+    roomSprite: {fileID: 21300000, guid: c43bead7a9c844143a1882d01c6910b2, type: 3}
+    rootLayout: 4
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -1.54, y: -4}
+      - {x: -1.54, y: 4}
+      - {x: -4, y: 4}
+      - {x: -4, y: -4}
+    - colliderPoints:
+      - {x: 1.5799999, y: 4}
+      - {x: 1.5799999, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: 1d95eb6c2c0fa0847a472a58fb6d3389, type: 3}
+    rootLayout: 5
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: -4}
+      - {x: -1.54, y: -4}
+      - {x: -1.54, y: -2.514}
+      - {x: -4, y: -2.514}
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: 2.4099998}
+      - {x: 1.57, y: 2.41}
+      - {x: 1.5699999, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: 014cfdd5c28251f43aa94b96aad316d7, type: 3}
+    rootLayout: 6
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: -4}
+      - {x: -1.55, y: -4}
+      - {x: -1.55, y: -2.51}
+      - {x: -4, y: -2.51}
+    - colliderPoints:
+      - {x: 1.5799999, y: 4}
+      - {x: 1.5799999, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: 4}
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: 2.43}
+      - {x: -1.55, y: 2.43}
+      - {x: -1.55, y: 4}
+    roomSprite: {fileID: 21300000, guid: 7f17f71c271056a4485cc39af6c49185, type: 3}
+    rootLayout: 7
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: -2.51}
+      - {x: -1.55, y: -2.51}
+      - {x: -1.55, y: 2.43}
+      - {x: 4, y: 2.43}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: 97389e8031e293746aab71e7972f17a3, type: 3}
+    rootLayout: 8
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: -2.51}
+      - {x: -1.55, y: -2.51}
+      - {x: -1.55, y: 4}
+    - colliderPoints:
+      - {x: 1.59, y: 4}
+      - {x: 1.59, y: 2.43}
+      - {x: 4, y: 2.43}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: af57a4d2bbbe3d348be18665f5ef6812, type: 3}
+    rootLayout: 9
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: -2.5}
+      - {x: -4, y: -2.5}
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: 2.4199998}
+      - {x: 4, y: 2.4199998}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: 319a3cd499ea03c46b40cc2f1cb30203, type: 3}
+    rootLayout: 10
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: -2.5}
+      - {x: -4, y: -2.5}
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: 2.43}
+      - {x: -1.55, y: 2.43}
+      - {x: -1.55, y: 4}
+    - colliderPoints:
+      - {x: 1.59, y: 3.9999998}
+      - {x: 1.59, y: 2.43}
+      - {x: 4, y: 2.43}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: d0e0841da47016045b6010cd3c768c65, type: 3}
+    rootLayout: 11
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: -4}
+      - {x: -1.55, y: -4}
+      - {x: -1.55, y: 2.43}
+      - {x: 4, y: 2.43}
+      - {x: 4, y: 4}
+    - colliderPoints:
+      - {x: 1.59, y: -2.51}
+      - {x: 1.59, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: -2.51}
+    roomSprite: {fileID: 21300000, guid: 11508a7e70a78744098f2371d315f204, type: 3}
+    rootLayout: 12
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -1.54, y: -4}
+      - {x: -1.54, y: 4}
+      - {x: -4, y: 4}
+      - {x: -4, y: -4}
+    - colliderPoints:
+      - {x: 1.59, y: -2.51}
+      - {x: 1.59, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: -2.51}
+    - colliderPoints:
+      - {x: 1.59, y: 4}
+      - {x: 1.59, y: 2.43}
+      - {x: 4, y: 2.43}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: 2d89595645e36fc4e8a7264ff4208889, type: 3}
+    rootLayout: 13
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: -4}
+      - {x: -1.54, y: -4}
+      - {x: -1.54, y: -2.52}
+      - {x: -1.56, y: -2.5}
+      - {x: -4, y: -2.5}
+    - colliderPoints:
+      - {x: 1.5799999, y: -2.52}
+      - {x: 1.5799999, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: -2.5}
+      - {x: 1.5999999, y: -2.5}
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: 2.4199998}
+      - {x: 4, y: 2.4199998}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: 20c2a5670ab268547a645681eede5433, type: 3}
+    rootLayout: 14
+  - colliderPaths:
+    - colliderPoints:
+      - {x: -4, y: -4}
+      - {x: -1.54, y: -4}
+      - {x: -1.54, y: -2.52}
+      - {x: -1.56, y: -2.5}
+      - {x: -4, y: -2.5}
+    - colliderPoints:
+      - {x: 1.5799999, y: -2.52}
+      - {x: 1.5799999, y: -4}
+      - {x: 4, y: -4}
+      - {x: 4, y: -2.5}
+      - {x: 1.5999999, y: -2.5}
+    - colliderPoints:
+      - {x: -4, y: 4}
+      - {x: -4, y: 2.4199998}
+      - {x: -1.56, y: 2.4199998}
+      - {x: -1.54, y: 2.44}
+      - {x: -1.54, y: 4}
+    - colliderPoints:
+      - {x: 1.5799999, y: 4}
+      - {x: 1.5799999, y: 2.44}
+      - {x: 1.5999999, y: 2.4199998}
+      - {x: 4, y: 2.4199998}
+      - {x: 4, y: 4}
+    roomSprite: {fileID: 21300000, guid: 8445096d8a07faf48879ef0cb0949d9d, type: 3}
+    rootLayout: 15
